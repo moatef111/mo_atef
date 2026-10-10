@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="group.css">
+        <script src="script.js"></script>
         <title>Mohammed Atef</title>
     </head>
     <body>
@@ -17,7 +18,28 @@
                   <h2>صلي علي النبي</h2>
                   <!-- <a href="https://chat.whatsapp.com/Fy7dlXMeCW3206GfiNV7E4" target="_blank" class="link">للدخول في المجتمع اضغط هنا</a> -->
                 </div>
-              
+                <div class="countdown-container">
+                    <h2>متبقي على الامتحان:</h2>
+                    <div class="timer" id="countdown">
+                    <div class="box">
+                        <span class="number" id="days">0</span>
+                        <span class="label">أيام</span>
+                    </div>
+                    <div class="box">
+                        <span class="number" id="hours">0</span>
+                        <span class="label">ساعات</span>
+                    </div>
+                    <div class="box">
+                        <span class="number" id="minutes">0</span>
+                        <span class="label">دقائق</span>
+                    </div>
+                    <div class="box">
+                        <span class="number" id="seconds">0</span>
+                        <span class="label">ثواني</span>
+                    </div>
+                </div>
+    <div id="expired-text" class="expired-msg" style="display: none;">وصلنا للموعد المحدد!</div>
+  </div>
             </div>
             
         </header>
@@ -80,6 +102,7 @@
                 <div class="ho"> mohammed atef © 2026 جميع الحقوق محفوظة</div>
             </div>
         </footer>
+ 
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
