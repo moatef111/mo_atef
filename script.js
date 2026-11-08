@@ -1,4 +1,4 @@
-const targetDate = new Date(2027,6,12,0,0,0).getTime();
+const targetDate = new Date(2027,5,12,0,0,0).getTime();
 
 const timerInterval = setInterval(function() {
 
